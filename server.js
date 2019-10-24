@@ -14,12 +14,12 @@ const server = express();
 //   });
 
 //GET and POST calls
-server.get('/',(req, res)=>{ //root of site
-    res.send('Hello, this is working');
-});
-server.post('/login',(req,res)=>{
-   //check if admin 
-});
+// server.get('/',(req, res)=>{ //root of site
+//     res.send('Hello, this is working');
+// // });
+// server.post('/login',(req,res)=>{
+//    //check if admin 
+// });
 
 server.listen(3000, () => console.log('Listening on port 3000'));
 
